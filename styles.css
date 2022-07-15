@@ -25,3 +25,50 @@
     align-items: center;
     gap: 20px;
 }
+
+/******************************BANNER**********************************/
+.banners {
+    background-image: url("https://unsplash.com/photos/gzhyKEo_cbU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTF8fHBlcnNvbnxlbnwwfDB8fHwxNjU3ODYyNzIx&force=true&w=1920");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    /* background-color: aqua; */
+}
+
+.banner h1 {
+    text-align: center;
+}
+
+.skill {
+    background-color: #d3d9ac;
+}
+
+.skill h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 20px;
+}
+
+/****************************INPUTS***************************/
+
+.inputs {
+    margin-bottom: 2rem;
+}
+
+.borders {
+    border: 5px double rgb(119, 24, 24);
+    border-radius: 200px;
+    box-shadow: -20px -20px teal;
+}
+
+.navbar a:hover {
+    background: rgb(34, 180, 168);
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 5px;
+    transition: all 5s ease-in;
+}
